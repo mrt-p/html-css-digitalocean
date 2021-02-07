@@ -16,13 +16,35 @@ header {
 }
 
 .padding_top_standard {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 .padding_bottom_standard {
-  padding-bottom: 60px;
+  padding-bottom: 40px;
+}
+
+.bg_grey {
+  background-color: #F3F5F9;
+}
+.bg_blue {
+  background-color: blue;
+  color: white;
 }
 /* Fine Utility */
+/* Font */
+h1 {
+  font-weight: bold;
+}
+h3 {
+  font-weight: bold;
+}
+h5 {
+  font-weight: bold;
+}
+h6 {
+  font-weight: bold;
+}
+/* Fine Font */
 /* Navbar */
 .ms_navbar {
   background-color: white;
@@ -63,7 +85,7 @@ header {
   border-radius: 5px;
 }
 /* Fine Navbar */
-/* Jumbotron */
+/* Jumbotron 1 */
 .jumbo_1 {
   background-color: blue;
   color: white;
@@ -106,13 +128,12 @@ header {
 
 .ms_input-group h6 {
   margin-top: 20px;
-  font-weight: bold;
 }
 .ms_input-group h6 a {
   text-decoration: underline;
-  font-weight: bold;
 }
-
+/* Fine Jumbotron 1*/
+/* Jumbotron 2*/
 .jumbo_2 {
   padding: 30px 0;
 }
@@ -124,7 +145,89 @@ header {
   height: 100px;
   width: 100px;
 }
-
+/* Fine Jumbotron 2*/
+/* Deploy */
+.deploy_table {
+  margin: 30px 0;
+}
+.deploy_table ul {
+  border-left: 1px solid black;
+  list-style: none;
+}
+.deploy_table li {
+  padding: 8px 0;
+}
+.deploy_table_left,
+.deploy_table_right {
+  text-align: left;
+}
+.table_content {
+  padding: 20px;
+}
+/* Fine Deploy */
+/* Designed */
+.carousel_center {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.carousel_center img {
+  width: 400px;
+}
+.designed_carousel .fas {
+  font-size: 25px;
+  color: grey;
+  padding: 20px;
+}
+.designed_carousel h5 {
+  margin-bottom: 10px;
+}
+.designed_carousel button {
+  width: 10px;
+  height: 10px;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+.btn_1 {
+  background-color: blue;
+}
+/* Fine Designed */
+/* Features */
+.features_table {
+  margin: 20px auto;
+}
+/* Fine Features */
+/* Service */
+.service {
+  padding: 20px;
+}
+.service_table {
+  width: 100%;
+}
+.service_table tr {
+  border-bottom: 1px solid #e5e8ed;
+}
+.service_table td {
+  padding: 10px 10px;
+}
+.td_left {
+  font-weight: bold;
+}
+.td_center {
+  opacity: 0.6;
+  margin-left: 20px;
+}
+.td_right a{
+  color: lightblue;
+}
+.td_right .fas {
+  font-size: 10px;
+  margin-left: 10px;
+}
+/* Fine Service */
+/* Get Started */
+.get_started h3 {
+  margin: 0 0 30px 0;
+}
 
 @media screen and (max-width:767px) {
   .ms_navbar_left,
