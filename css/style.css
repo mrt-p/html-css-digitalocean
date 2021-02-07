@@ -1,0 +1,163 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+header {
+  font-size: 16px;
+}
+
+/* Utility */
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.padding_top_standard {
+  padding-top: 60px;
+}
+
+.padding_bottom_standard {
+  padding-bottom: 60px;
+}
+/* Fine Utility */
+/* Navbar */
+.ms_navbar {
+  background-color: white;
+}
+
+.ms_navbar .navbar-toggle .icon-bar {
+  background-color: #2285FD;
+  height: 4px;
+}
+
+.navbar-toggle {
+  margin-right: 0;
+}
+
+.ms_navbar a:not(.navbar_a) {
+  color: #031C4E;
+}
+.ms_navbar_left {
+  padding-left: 80px;
+}
+.ms_navbar_left>li>a {
+  padding: 20px 10px;
+}
+
+.ms_navbar_right>li>a:not(.navbar_a) {
+  padding: 20px 10px;
+}
+
+.ms_navbar_right>li>.navbar_a {
+  padding: 12px;
+  font-size: 14px;
+  color: #3889FF;
+}
+.navbar_button {
+  padding: 6px 10px;
+  background: none;
+  border: 2px solid #3889FF;
+  border-radius: 5px;
+}
+/* Fine Navbar */
+/* Jumbotron */
+.jumbo_1 {
+  background-color: blue;
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+.jumbo_left {
+
+}
+.jumbo_right {
+  color: #031C4E;
+}
+
+.getstarted_box {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.getstarted_box h3 {
+  padding: 10px;
+}
+.ms_input-group {
+  display: block;
+}
+.ms_form-control {
+  margin-top: 10px;
+}
+.ms_btn {
+  margin-top: 10px;
+  width: 100%;
+}
+.ms_btn img {
+  width: 15px;
+}
+.btn_logo {
+  padding: 0;
+  text-align: left;
+  position: absolute;
+}
+
+.ms_input-group h6 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.ms_input-group h6 a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.jumbo_2 {
+  padding: 30px 0;
+}
+.jumbo_loghi {
+  margin: 30px 0;
+}
+.jumbo_logo {
+  background-color: black;
+  height: 100px;
+  width: 100px;
+}
+
+
+@media screen and (max-width:767px) {
+  .ms_navbar_left,
+  .ms_navbar_right,
+  .navbar_button {
+    display: none;
+  }
+}
+@media screen and (max-width:1180px) {
+  .ms_navbar_left,
+  .ms_navbar_right,
+  .navbar_button {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width:1075px) {
+  .ms_navbar_left,
+  .ms_navbar_right,
+  .navbar_button {
+    font-size: 70%;
+  }
+}
+@media screen and (max-width:1012px) {
+  .ms_navbar_left,
+  .ms_navbar_right,
+  .navbar_button {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width:905px) {
+  .ms_navbar_left,
+  .ms_navbar_right,
+  .navbar_button {
+    font-size: 40%;
+  }
+}
