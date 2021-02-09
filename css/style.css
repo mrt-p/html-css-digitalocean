@@ -5,6 +5,10 @@
   box-sizing:border-box;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+}
+
 header {
   font-size: 16px;
 }
@@ -316,11 +320,29 @@ h6 {
   border: none;
 }
 /* Fine Get Started */
-
-
-
-
-
+/* Footer */
+footer {
+  background-color: #031C4E;
+  font-size: 12px;
+  color: #A6ADBD;
+}
+.footer_logo img {
+  width: 30px;
+}
+.fab_footer {
+  color: #A6ADBD;
+  padding-right: 10px;
+}
+footer h6 {
+  margin-bottom: 5px;
+}
+footer ul {
+  list-style: none;
+}
+footer li:first-child {
+  color: white;
+  font-size: 14px;
+}
 
 @media screen and (max-width:767px) {
   .ms_navbar_left,
@@ -330,7 +352,9 @@ h6 {
   }
   .carousel_right,
   .carousel_left,
-  .carousel_center .fas {
+  .carousel_center .fas,
+  .carousel_left_rockerbox,
+  .carousel_right_rockerbox {
     display: none;
   }
 }
