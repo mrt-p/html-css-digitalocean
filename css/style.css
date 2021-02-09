@@ -27,7 +27,7 @@ header {
   background-color: #F3F5F9;
 }
 .bg_blue {
-  background-color: blue;
+  background-image: linear-gradient(180deg,#0242bc 0,#001e9a);
   color: white;
 }
 /* Fine Utility */
@@ -87,13 +87,16 @@ h6 {
 /* Fine Navbar */
 /* Jumbotron 1 */
 .jumbo_1 {
-  background-color: blue;
+  background-image: url(../img/bg_jumbotron.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
   color: white;
   margin-top: 60px;
   margin-bottom: 0;
 }
 .jumbo_left {
-
+  padding-right: 80px;
 }
 .jumbo_right {
   color: #031C4E;
@@ -104,8 +107,10 @@ h6 {
   background-color: white;
   border-radius: 5px;
 }
-.getstarted_box h3 {
-  padding: 10px;
+
+.title_blue {
+  color: #006AFF;
+  margin-top: 0;
 }
 .ms_input-group {
   display: block;
@@ -116,6 +121,8 @@ h6 {
 .ms_btn {
   margin-top: 10px;
   width: 100%;
+  font-weight: bold;
+  border: none;
 }
 .ms_btn img {
   width: 15px;
@@ -125,12 +132,23 @@ h6 {
   text-align: left;
   position: absolute;
 }
+.btn_blue {
+  background-color: #579AFF;
+  color: white;
+}
+.btn_white {
+  box-shadow: 1px 2px #8888885c;
+}
+.btn_text {
+  color: #626262;
+}
 
 .ms_input-group h6 {
   margin-top: 20px;
 }
 .ms_input-group h6 a {
   text-decoration: underline;
+  color: #006AFF;
 }
 /* Fine Jumbotron 1*/
 /* Jumbotron 2*/
@@ -141,9 +159,15 @@ h6 {
   margin: 30px 0;
 }
 .jumbo_logo {
-  background-color: black;
-  height: 100px;
-  width: 100px;
+
+  margin: 0 auto;
+}
+.jumbo_title h5 {
+  color: #6F7B97;
+}
+
+.h5_link {
+  color: #006AFF;
 }
 /* Fine Jumbotron 2*/
 /* Deploy */
@@ -162,7 +186,16 @@ h6 {
   text-align: left;
 }
 .table_content {
-  padding: 20px;
+  padding: 20px 50px 0 20px;
+}
+.table_content img {
+  width: 10%;
+}
+.table_content p {
+  font-size: 12px;
+}
+.deploy_title p {
+  padding: 10px 100px;
 }
 /* Fine Deploy */
 /* Designed */
@@ -171,7 +204,11 @@ h6 {
   margin-bottom: 10px;
 }
 .carousel_center img {
-  width: 400px;
+  width: 100%;
+}
+.carousel_left,
+.carousel_right {
+  padding-top: 15%;
 }
 .designed_carousel .fas {
   font-size: 25px;
@@ -184,21 +221,35 @@ h6 {
 .designed_carousel button {
   width: 10px;
   height: 10px;
-  border: 1px solid blue;
+  border: 1px solid #006AFF;
   border-radius: 10px;
 }
 .btn_1 {
-  background-color: blue;
+  background-color: #006AFF;
 }
 /* Fine Designed */
 /* Features */
 .features_table {
   margin: 20px auto;
 }
+.features_table a {
+  color: #006AFF;
+  font-weight: bold;
+}
+.features_table img {
+  width: 8%;
+}
+.features_table p {
+  font-size: 12px;
+  padding-right: 50px;
+}
 /* Fine Features */
 /* Service */
 .service {
   padding: 20px;
+}
+.service_row {
+  padding: 20px 15px;
 }
 .service_table {
   width: 100%;
@@ -217,22 +268,69 @@ h6 {
   margin-left: 20px;
 }
 .td_right a{
-  color: lightblue;
+  color: #00D7D2;
+  font-weight: bold;
 }
 .td_right .fas {
   font-size: 10px;
   margin-left: 10px;
 }
 /* Fine Service */
+/* Rockerbox */
+.rockerbox {
+  width: 80%;
+  background-color: white;
+}
+.carousel_center_rockerbox {
+    margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+.carousel_center_rockerbox img {
+  width: 50%;
+  padding-top: 50px;
+}
+.carousel_center_rockerbox p {
+  margin-top: 10px;
+}
+.carousel_center_rockerbox a {
+  color: #006AFF;
+}
+.carousel_center_rockerbox h6 {
+  margin-bottom: 40px;
+}
+.carousel_left_rockerbox,
+.carousel_right_rockerbox {
+  line-height: 25;
+}
 /* Get Started */
 .get_started h3 {
   margin: 0 0 30px 0;
 }
+.getstarted_btn {
+  color: #006AFF;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: none;
+}
+/* Fine Get Started */
+
+
+
+
+
 
 @media screen and (max-width:767px) {
   .ms_navbar_left,
   .ms_navbar_right,
   .navbar_button {
+    display: none;
+  }
+  .carousel_right,
+  .carousel_left,
+  .carousel_center .fas {
     display: none;
   }
 }
